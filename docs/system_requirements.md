@@ -1,3 +1,10 @@
+> **Implementation Note**
+>
+> This document defines the complete long-term requirements of the Fitness Research Operating System (FROS).
+>
+> Early software releases (including MVP, Alpha, and Beta versions) may implement only a subset of these requirements.
+>
+> The implementation roadmap determines when each requirement becomes active.
 # System Requirements Specification (SRS)
 
 **Document Version:** 0.1.0
@@ -1436,5 +1443,14 @@ The review shall verify:
 - Scientific consistency
 - Architectural consistency
 - Documentation quality
+- # 13. Implementation Roadmap Reference
+
+This specification defines the complete long-term vision of FROS.
+
+The implementation order of individual components is intentionally defined outside this document.
+
+Development shall follow the official project roadmap, beginning with the Minimum Viable Product (MVP), followed by Alpha, Beta, and Full Release milestones.
+
+Not every requirement defined in this specification is expected to be implemented in early software versions.
 - Functional completeness
 - Overall compliance with the FROS framework
