@@ -1454,3 +1454,91 @@ Development shall follow the official project roadmap, beginning with the Minimu
 Not every requirement defined in this specification is expected to be implemented in early software versions.
 - Functional completeness
 - Overall compliance with the FROS framework
+# 13. Future Expansion
+
+The Fitness Research Operating System (FROS) is designed as a modular and extensible framework.
+
+The current specification defines the long-term vision of the project while allowing incremental implementation through future software releases.
+
+---
+
+## 13.1 Modular Expansion
+
+The framework shall support the addition of new modules without requiring major architectural redesign.
+
+Future modules may include, but are not limited to:
+
+- Bloodwork Intelligence
+- Recovery Intelligence
+- Nutrition Intelligence
+- Exercise Intelligence
+- Supplement Intelligence
+- Injury Prevention
+- Performance Analytics
+- Habit Tracking
+- Knowledge Evolution
+- Scientific Debate Engine
+
+---
+
+## 13.2 Scientific Expansion
+
+The framework shall continuously incorporate advances in scientific knowledge.
+
+Future versions may introduce:
+
+- Updated evidence hierarchies
+- Improved evaluation methodologies
+- New consensus statements
+- Enhanced personalization models
+- Additional research domains
+
+---
+
+## 13.3 Technical Expansion
+
+Future software releases may introduce:
+
+- Persistent databases
+- Local knowledge indexing
+- API integrations
+- Automated literature retrieval
+- Version-controlled knowledge repositories
+- Advanced reasoning pipelines
+
+---
+
+## 13.4 Personalization Expansion
+
+Future versions may support additional personalization variables including:
+
+- Genetic information
+- Wearable device data
+- Continuous health monitoring
+- Laboratory trend analysis
+- Long-term training adaptations
+- Behavioral analytics
+
+---
+
+## 13.5 Roadmap Alignment
+
+Implementation shall follow the official project roadmap.
+
+The project shall be developed incrementally through clearly defined milestones:
+
+- Minimum Viable Product (MVP)
+- Alpha
+- Beta
+- Release Candidate
+- Stable Release
+
+Each milestone shall deliver a functional, documented, and testable subset of the complete specification.
+
+---
+
+## 13.6 Long-Term Vision
+
+The long-term objective of FROS is to provide a scientifically rigorous, transparent, modular, and continuously evolving personal fitness research framework.
+
+The framework shall prioritize evidence quality, reasoning transparency, and personalized decision support while remaining maintainable, extensible, and scientifically accountable.
