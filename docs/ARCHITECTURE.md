@@ -1252,3 +1252,84 @@ Future software versions may introduce additional memory systems including:
 - Long-term reasoning caches
 
 Such additions shall preserve the architectural separation defined in this document.
+# 11. Extension Architecture
+
+The Fitness Research Operating System (FROS) is designed as a modular framework that supports incremental expansion without requiring major architectural redesign.
+
+Future modules shall integrate through existing architectural interfaces whenever possible.
+
+---
+
+## 11.1 Objectives
+
+The extension architecture shall:
+
+- Support modular growth
+- Preserve backward compatibility
+- Minimize architectural disruption
+- Encourage reusable components
+- Maintain consistent interfaces
+
+---
+
+## 11.2 Modular Expansion
+
+New modules shall be introduced as independent components with clearly defined responsibilities.
+
+Each new module shall specify:
+
+- Purpose
+- Inputs
+- Outputs
+- Dependencies
+- Integration points
+
+Modules shall not assume knowledge of unrelated internal implementations.
+
+---
+
+## 11.3 Interface Compatibility
+
+Extensions shall communicate using standardized interfaces.
+
+Existing modules should not require modification when new modules are introduced unless architectural improvements explicitly justify such changes.
+
+---
+
+## 11.4 Layer Integration
+
+New functionality shall be assigned to the appropriate architectural layer.
+
+Extensions shall respect the separation of concerns established by the layered architecture.
+
+---
+
+## 11.5 Dependency Management
+
+Dependencies between modules shall remain explicit and minimal.
+
+Circular dependencies shall be avoided.
+
+Whenever practical, dependencies should be directed toward stable interfaces rather than implementation details.
+
+---
+
+## 11.6 Version Compatibility
+
+Future architectural changes should preserve compatibility with previous versions whenever feasible.
+
+Breaking changes shall be documented and versioned appropriately.
+
+---
+
+## 11.7 Experimental Modules
+
+Experimental components may be developed independently before becoming part of the stable architecture.
+
+Experimental modules shall not affect the stability of the core framework.
+
+---
+
+## 11.8 Long-Term Evolution
+
+The architecture shall support future additions including new scientific domains, reasoning strategies, evidence processing methods, and personalization capabilities without compromising the integrity of the existing framework.
