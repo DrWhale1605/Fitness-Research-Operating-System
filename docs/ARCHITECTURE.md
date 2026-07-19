@@ -1120,3 +1120,135 @@ This package becomes the direct input for the Output Engine.
 The Decision Pipeline shall preserve complete traceability between scientific evidence, reasoning, personalization, and the final recommendation.
 
 Future versions may extend decision logic without changing the overall pipeline architecture.
+# 10. Memory Architecture
+
+The Fitness Research Operating System (FROS) employs a layered memory architecture to ensure structured information management, reasoning traceability, and long-term maintainability.
+
+Each memory component serves a distinct responsibility and shall not duplicate unrelated information.
+
+---
+
+## 10.1 Memory Objectives
+
+The memory architecture shall:
+
+- Preserve reasoning traceability
+- Maintain structured knowledge
+- Separate temporary and persistent information
+- Minimize redundant data
+- Support future scalability
+
+---
+
+## 10.2 Memory Layers
+
+The architecture consists of the following logical memory layers:
+
+- Working Memory
+- Knowledge Repository
+- User Profile
+- Session Context
+- Evidence Repository
+
+Each layer has an independent responsibility.
+
+---
+
+## 10.3 Working Memory
+
+Working Memory stores temporary information required during request processing.
+
+Examples include:
+
+- Current request
+- Intermediate reasoning
+- Active evidence package
+- Temporary calculations
+
+Working Memory shall be cleared after request completion.
+
+---
+
+## 10.4 User Profile
+
+The User Profile stores persistent user-specific information.
+
+Examples include:
+
+- Age
+- Height
+- Weight
+- Goals
+- Medical history
+- Training history
+- Equipment
+- Lifestyle
+
+This information shall only be modified through authorized personalization processes.
+
+---
+
+## 10.5 Session Context
+
+Session Context maintains information relevant to the current interaction.
+
+Examples include:
+
+- Previous questions
+- Current objectives
+- Ongoing discussion
+- Active assumptions
+
+Session Context shall expire when the session ends unless explicitly preserved.
+
+---
+
+## 10.6 Knowledge Repository
+
+The Knowledge Repository stores structured scientific knowledge used across multiple requests.
+
+Examples include:
+
+- Evidence summaries
+- Consensus statements
+- Scientific principles
+- Research metadata
+
+The repository shall remain version controlled.
+
+---
+
+## 10.7 Evidence Repository
+
+The Evidence Repository preserves collected scientific evidence.
+
+Stored information may include:
+
+- Original sources
+- Evidence hierarchy
+- Quality assessments
+- Citations
+- Traceability metadata
+
+Original evidence shall never be overwritten.
+
+---
+
+## 10.8 Memory Isolation
+
+Each memory layer shall expose only the information required by requesting modules.
+
+Modules shall not directly modify unrelated memory structures.
+
+---
+
+## 10.9 Future Expansion
+
+Future software versions may introduce additional memory systems including:
+
+- Vector databases
+- Semantic indexing
+- Knowledge graphs
+- Long-term reasoning caches
+
+Such additions shall preserve the architectural separation defined in this document.
