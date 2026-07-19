@@ -256,3 +256,157 @@ Responsibilities include:
 - Consensus Tracking
 - Research Updates
 - Future Scientific Expansion
+# 4. Module Responsibilities
+
+Every module within FROS shall have a clearly defined responsibility.
+
+Modules shall perform one primary function and delegate unrelated responsibilities to other modules whenever appropriate.
+
+This architecture follows the Single Responsibility Principle (SRP) to improve maintainability, testability, and long-term scalability.
+
+---
+
+## 4.1 Master Controller
+
+Responsible for coordinating the complete research workflow.
+
+Responsibilities include:
+
+- Workflow orchestration
+- Module routing
+- Execution control
+- Global state coordination
+
+The Master Controller shall not perform scientific reasoning itself.
+
+---
+
+## 4.2 Request Classifier
+
+Responsible for understanding the user's request.
+
+Responsibilities include:
+
+- Intent classification
+- Domain identification
+- Complexity estimation
+- Routing preparation
+
+The Request Classifier shall not generate recommendations.
+
+---
+
+## 4.3 Research Planner
+
+Responsible for planning the research strategy.
+
+Responsibilities include:
+
+- Research objective definition
+- Module selection
+- Evidence requirements
+- Investigation planning
+
+The Research Planner shall not collect evidence directly.
+
+---
+
+## 4.4 Evidence Collector
+
+Responsible for acquiring scientific evidence.
+
+Responsibilities include:
+
+- Literature collection
+- Source identification
+- Citation gathering
+- Evidence organization
+
+The Evidence Collector shall not interpret scientific findings.
+
+---
+
+## 4.5 Evidence Evaluator
+
+Responsible for assessing evidence quality.
+
+Responsibilities include:
+
+- Evidence ranking
+- Quality assessment
+- Bias evaluation
+- Confidence estimation
+
+The Evidence Evaluator shall not generate final recommendations.
+
+---
+
+## 4.6 Reasoning Engine
+
+Responsible for scientific reasoning.
+
+Responsibilities include:
+
+- Knowledge synthesis
+- Logical analysis
+- Scientific integration
+- Contradiction handling
+
+The Reasoning Engine shall not directly communicate with the user.
+
+---
+
+## 4.7 Personalization Engine
+
+Responsible for adapting scientific conclusions to the user's profile.
+
+Responsibilities include:
+
+- Profile interpretation
+- Context adaptation
+- Practical customization
+
+Personalization shall never override established scientific evidence without explicit justification.
+
+---
+
+## 4.8 Decision Engine
+
+Responsible for selecting the final recommendation.
+
+Responsibilities include:
+
+- Risk assessment
+- Trade-off analysis
+- Recommendation optimization
+- Decision validation
+
+---
+
+## 4.9 Output Engine
+
+Responsible for generating user-facing responses.
+
+Responsibilities include:
+
+- Report generation
+- Executive summaries
+- Action plans
+- Follow-up questions
+
+The Output Engine shall never modify scientific conclusions.
+
+---
+
+## 4.10 Knowledge Manager
+
+Responsible for maintaining structured internal knowledge.
+
+Responsibilities include:
+
+- Knowledge organization
+- Historical tracking
+- Version management
+- Information consistency
+
+The Knowledge Manager shall not perform reasoning independently.
