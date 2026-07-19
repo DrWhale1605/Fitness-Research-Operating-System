@@ -79,3 +79,61 @@ Constraints include:
 - No automatic learning
 
 These limitations reduce implementation complexity and improve development speed.
+# 5. Included Features
+
+Version 0.1 shall include only the minimum functionality required to validate the complete scientific workflow.
+
+The MVP includes the following capabilities:
+
+---
+
+## Core Workflow
+
+The system shall:
+
+- Receive a user request.
+- Classify the request.
+- Generate a research plan.
+- Collect scientific evidence.
+- Evaluate evidence quality.
+- Produce structured scientific reasoning.
+- Personalize conclusions.
+- Generate a final recommendation.
+
+---
+
+## Core Modules
+
+The MVP includes:
+
+- Master Controller
+- Request Classifier
+- Research Planner
+- Working Memory
+- Evidence Collector
+- Evidence Evaluator
+- Reasoning Engine
+- Personalization Engine
+- Decision Engine
+- Output Engine
+
+---
+
+## Documentation
+
+The MVP shall include:
+
+- Project Vision
+- System Requirements Specification
+- Software Architecture
+- MVP Specification
+
+Documentation is considered part of the product.
+
+---
+
+## Testing
+
+Every implemented module shall include basic validation before integration.
+
+The MVP prioritizes correctness over feature count.
