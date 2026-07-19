@@ -692,3 +692,154 @@ Every stage shall preserve sufficient metadata to reconstruct the complete reaso
 Traceability shall remain available throughout the entire research lifecycle.
 
 Future implementations may extend traceability without modifying the overall data flow architecture.
+# 7. Request Processing Pipeline
+
+The Request Processing Pipeline defines the complete lifecycle of a user request from initial submission to final response.
+
+Every request shall pass through a controlled sequence of processing stages to ensure scientific consistency, transparency, and reproducibility.
+
+---
+
+## 7.1 Pipeline Overview
+
+The standard processing pipeline consists of the following stages:
+
+1. Request Reception
+2. Request Classification
+3. Research Planning
+4. Evidence Collection
+5. Evidence Evaluation
+6. Scientific Reasoning
+7. Personalization
+8. Decision Generation
+9. Output Generation
+
+No major recommendation shall bypass this pipeline.
+
+---
+
+## 7.2 Request Reception
+
+The Master Controller receives the incoming request.
+
+Responsibilities include:
+
+- Initialize the workflow
+- Load available user context
+- Create a new processing session
+- Assign a unique request identifier
+
+---
+
+## 7.3 Request Classification
+
+The Request Classifier analyzes the request.
+
+Outputs include:
+
+- Primary intent
+- Scientific domain
+- Complexity level
+- Required modules
+- Missing information
+
+---
+
+## 7.4 Research Planning
+
+The Research Planner constructs an investigation strategy.
+
+The plan defines:
+
+- Research objectives
+- Required evidence
+- Expected evidence quality
+- Required processing depth
+
+---
+
+## 7.5 Evidence Processing
+
+Scientific evidence is collected and evaluated.
+
+Processing includes:
+
+- Source identification
+- Evidence collection
+- Quality assessment
+- Ranking
+- Organization
+
+The result is a structured evidence package.
+
+---
+
+## 7.6 Scientific Reasoning
+
+The Reasoning Engine transforms evidence into scientific conclusions.
+
+Processing includes:
+
+- Evidence synthesis
+- Conflict resolution
+- Consensus evaluation
+- Confidence estimation
+- Logical validation
+
+The output is a structured reasoning package.
+
+---
+
+## 7.7 Personalization
+
+Scientific conclusions are adapted to the individual user.
+
+This stage considers:
+
+- User profile
+- Goals
+- Medical constraints
+- Available equipment
+- Lifestyle factors
+
+Scientific conclusions themselves remain unchanged.
+
+---
+
+## 7.8 Decision Generation
+
+The Decision Engine evaluates all available options.
+
+Selection criteria include:
+
+- Scientific quality
+- Expected benefit
+- Risk
+- Practicality
+- Sustainability
+
+The selected recommendation becomes the decision package.
+
+---
+
+## 7.9 Output Generation
+
+The Output Engine generates the final response.
+
+Outputs may include:
+
+- Executive summary
+- Scientific explanation
+- Practical recommendations
+- Confidence assessment
+- Follow-up questions
+
+---
+
+## 7.10 Pipeline Integrity
+
+Every processing stage shall preserve traceability.
+
+Intermediate outputs shall remain available for validation, auditing, and future refinement.
+
+Pipeline stages may evolve independently provided that the overall processing sequence remains logically consistent.
