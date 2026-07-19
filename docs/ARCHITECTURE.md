@@ -410,3 +410,125 @@ Responsibilities include:
 - Information consistency
 
 The Knowledge Manager shall not perform reasoning independently.
+# 5. Module Communication
+
+The Fitness Research Operating System (FROS) follows a controlled communication model.
+
+Modules shall communicate only through well-defined interfaces.
+
+Direct dependencies between unrelated modules shall be avoided to preserve modularity, maintainability, and testability.
+
+---
+
+## 5.1 Communication Principles
+
+All module communication shall follow these principles:
+
+- Explicit interfaces
+- Loose coupling
+- High cohesion
+- Traceable data flow
+- Predictable execution
+
+Modules shall never rely on hidden internal state from other modules.
+
+---
+
+## 5.2 Communication Flow
+
+A typical request shall follow the communication sequence below:
+
+User Request
+
+↓
+
+Master Controller
+
+↓
+
+Request Classifier
+
+↓
+
+Research Planner
+
+↓
+
+Evidence Collector
+
+↓
+
+Evidence Evaluator
+
+↓
+
+Reasoning Engine
+
+↓
+
+Personalization Engine
+
+↓
+
+Decision Engine
+
+↓
+
+Output Engine
+
+---
+
+## 5.3 Allowed Dependencies
+
+Modules shall only communicate with components directly required for their responsibilities.
+
+For example:
+
+- Request Classifier → Research Planner
+- Research Planner → Evidence Collector
+- Evidence Collector → Evidence Evaluator
+- Evidence Evaluator → Reasoning Engine
+- Reasoning Engine → Personalization Engine
+- Personalization Engine → Decision Engine
+- Decision Engine → Output Engine
+
+Cross-layer shortcuts should be avoided unless explicitly justified.
+
+---
+
+## 5.4 Data Ownership
+
+Every module owns its internal processing logic.
+
+Modules shall exchange structured outputs rather than exposing internal implementation details.
+
+Each module shall treat incoming data as read-only unless modification is explicitly part of its responsibility.
+
+---
+
+## 5.5 Error Propagation
+
+When a module detects an error or insufficient information, it shall communicate the issue to the previous coordinating component.
+
+Modules shall never silently ignore failures.
+
+---
+
+## 5.6 Interface Stability
+
+Module interfaces shall remain stable across future software versions whenever practical.
+
+Internal implementations may evolve without affecting other modules, provided the interface contract remains unchanged.
+
+---
+
+## 5.7 Future Communication
+
+Future versions may introduce additional communication mechanisms including:
+
+- Event-driven messaging
+- Shared knowledge repositories
+- Background processing
+- Parallel execution
+
+Such additions shall preserve the modular communication principles defined by this architecture.
