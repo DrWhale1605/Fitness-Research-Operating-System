@@ -1669,3 +1669,110 @@ The MVP shall be considered complete when:
 Completing additional features does not define MVP success.
 
 Successful validation of the architecture defines MVP success.
+## 14.6 Included Modules
+
+The MVP shall implement only the minimum set of modules required to validate the complete scientific research workflow.
+
+The following modules are included in Version 0.1.
+
+---
+
+### Layer 1 — Kernel
+
+Included modules:
+
+- Master Controller
+- Request Classifier
+- Research Planner
+- Working Memory
+
+These modules coordinate the complete execution pipeline.
+
+---
+
+### Layer 2 — Evidence System
+
+Included modules:
+
+- Evidence Collector
+- Evidence Evaluator
+
+The MVP shall support evidence collection, organization, validation, and ranking.
+
+Advanced evidence synthesis remains outside the MVP scope.
+
+---
+
+### Layer 3 — Scientific Review
+
+Included modules:
+
+- Confidence Calibration
+
+The MVP performs basic scientific validation.
+
+Advanced scientific debate, hallucination detection, statistical review, and bias analysis are postponed.
+
+---
+
+### Layer 4 — Domain Intelligence
+
+Included modules:
+
+- Exercise Intelligence
+- Nutrition Intelligence
+- Supplement Intelligence
+
+Additional scientific domains will be introduced in later releases.
+
+---
+
+### Layer 5 — Personalization
+
+Included modules:
+
+- User Profile
+- Basic Personalization Engine
+
+The MVP personalizes recommendations using static profile information.
+
+Advanced adaptive personalization is outside the MVP scope.
+
+---
+
+### Layer 6 — Decision System
+
+Included modules:
+
+- Risk Assessment
+- Recommendation Generator
+
+Cost–Benefit Analysis and Optimization Engine will be introduced in future versions.
+
+---
+
+### Layer 7 — Output
+
+Included modules:
+
+- Scientific Report
+- Executive Summary
+- Action Plan
+
+Follow-up question generation remains optional.
+
+---
+
+### Layer 8 — Evolution
+
+No Evolution modules are implemented in the MVP.
+
+Knowledge Evolution, Consensus Tracking, and Research Update mechanisms are deferred until Version 2.x.
+
+---
+
+## MVP Module Summary
+
+The MVP intentionally implements only the modules required to demonstrate the complete scientific workflow.
+
+Additional capabilities shall be added incrementally after successful architectural validation.
