@@ -2005,3 +2005,90 @@ Future implementations shall preserve:
 - Maintainability
 
 Architectural consistency shall remain a primary design objective throughout the evolution of FROS.
+# 16. Architectural Principles
+
+The architecture of the Fitness Research Operating System (FROS) is governed by a set of fundamental principles that guide every design decision, implementation strategy, and future extension.
+
+These principles ensure that the system remains scientifically rigorous, maintainable, transparent, and extensible throughout its lifecycle.
+
+---
+
+## 16.1 Scientific Integrity
+
+Scientific evidence shall always take precedence over assumptions, preferences, or unsupported claims.
+
+Recommendations shall be justified by the best available evidence.
+
+---
+
+## 16.2 Transparency
+
+The reasoning process shall remain explainable.
+
+Users and developers should be able to understand how conclusions were reached whenever practical.
+
+---
+
+## 16.3 Modularity
+
+Every module shall have a clearly defined responsibility.
+
+Modules should communicate only through explicit interfaces.
+
+Internal implementation details shall remain encapsulated.
+
+---
+
+## 16.4 Maintainability
+
+The architecture shall favor readability, simplicity, and long-term maintainability over unnecessary complexity.
+
+Future developers should be able to understand and modify the system without redesigning its core architecture.
+
+---
+
+## 16.5 Scalability
+
+The architecture shall support incremental expansion.
+
+New scientific domains, reasoning strategies, and system capabilities shall integrate without disrupting existing functionality.
+
+---
+
+## 16.6 Reliability
+
+System behavior shall remain predictable and reproducible.
+
+Failures shall be handled explicitly and shall never silently compromise scientific conclusions.
+
+---
+
+## 16.7 Traceability
+
+Scientific evidence, reasoning steps, and final recommendations shall remain traceable throughout the processing lifecycle.
+
+Whenever practical, every recommendation should be linked back to its supporting evidence.
+
+---
+
+## 16.8 Separation of Concerns
+
+Different architectural layers shall remain independent.
+
+Scientific reasoning, personalization, decision-making, and presentation shall never become tightly coupled.
+
+---
+
+## 16.9 User-Centered Design
+
+The architecture shall prioritize clarity, practicality, and usability without compromising scientific accuracy.
+
+Recommendations shall be adapted to the user's context while preserving evidence-based conclusions.
+
+---
+
+## 16.10 Long-Term Vision
+
+The primary objective of FROS is to establish a trustworthy, extensible, and scientifically grounded research framework.
+
+Every future architectural decision shall reinforce this vision rather than introduce unnecessary complexity or compromise existing principles.
