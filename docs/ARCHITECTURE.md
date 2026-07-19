@@ -1,3 +1,14 @@
+# Fitness Research Operating System (FROS)
+
+# Software Architecture Document
+
+Version: 0.2.0
+
+Status: Draft
+
+Owner: Alp
+
+Last Updated: YYYY-MM-DD
 # Architecture Specification
 
 **Owner:** Alp
@@ -2092,3 +2103,32 @@ Recommendations shall be adapted to the user's context while preserving evidence
 The primary objective of FROS is to establish a trustworthy, extensible, and scientifically grounded research framework.
 
 Every future architectural decision shall reinforce this vision rather than introduce unnecessary complexity or compromise existing principles.
+# CHANGELOG
+
+## Version 0.2.0
+
+### Added
+
+- Architecture review process
+- MVP scope refinement
+- Technical Decisions (ADR) support
+- Module Contracts
+- Canonical Data Models
+- Canonical Request Pipeline
+- Medical Safety Boundary
+- Architecture Acceptance Criteria
+
+### Changed
+
+- MVP narrowed to a single scientific domain
+- Evidence pipeline revised
+- Decision pipeline revised
+- Confidence model simplified
+- Technology decisions documented
+
+### Fixed
+
+- Internal references
+- Naming consistency
+- Dependency descriptions
+- Architecture consistency with the SRS
