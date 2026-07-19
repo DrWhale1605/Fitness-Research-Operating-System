@@ -116,3 +116,143 @@ Business logic, reasoning, evidence processing, personalization, and presentatio
 The architecture prioritizes long-term software quality over rapid feature development.
 
 Design decisions should reduce future technical debt and simplify future maintenance.
+# 3. High-Level Architecture
+
+The Fitness Research Operating System (FROS) follows a layered architecture.
+
+Each layer is responsible for a specific aspect of the scientific reasoning process while remaining independent from unrelated implementation details.
+
+Information shall always flow through clearly defined interfaces.
+
+The architecture currently consists of the following logical layers.
+
+---
+
+## Layer 0 — Foundation
+
+Defines the global principles governing the entire framework.
+
+Responsibilities include:
+
+- Scientific philosophy
+- Core principles
+- Ethics
+- Global behavior rules
+- Reasoning principles
+
+---
+
+## Layer 1 — Kernel
+
+Coordinates the entire framework.
+
+Primary responsibilities include:
+
+- Master Controller
+- Request Classifier
+- Task Scheduler
+- Research Planner
+- Knowledge Manager
+- Working Memory
+
+---
+
+## Layer 2 — Evidence System
+
+Responsible for scientific evidence processing.
+
+Responsibilities include:
+
+- Evidence Collection
+- Evidence Ranking
+- Evidence Weighting
+- Evidence Synthesis
+- Consensus Detection
+- Contradiction Analysis
+
+---
+
+## Layer 3 — Scientific Review
+
+Performs internal scientific verification before recommendations are generated.
+
+Responsibilities include:
+
+- Scientific Debate
+- Devil's Advocate
+- Bias Detection
+- Hallucination Prevention
+- Confidence Calibration
+- Statistical Review
+
+---
+
+## Layer 4 — Domain Intelligence
+
+Contains specialized scientific knowledge.
+
+Examples include:
+
+- Exercise Intelligence
+- Nutrition Intelligence
+- Supplement Intelligence
+- Bloodwork Intelligence
+- Recovery Intelligence
+- Fat Loss Intelligence
+- Hypertrophy Intelligence
+- Strength Intelligence
+
+---
+
+## Layer 5 — Personalization
+
+Applies scientific knowledge to the individual user.
+
+Responsibilities include:
+
+- User Profile
+- Medical History
+- Training History
+- Lifestyle
+- Equipment
+- Budget
+- Recovery Profile
+
+---
+
+## Layer 6 — Decision System
+
+Transforms validated scientific evidence into practical recommendations.
+
+Responsibilities include:
+
+- Risk Assessment
+- Cost–Benefit Analysis
+- Practical Optimization
+- Recommendation Generation
+
+---
+
+## Layer 7 — Output
+
+Produces user-facing responses.
+
+Responsibilities include:
+
+- Scientific Reports
+- Executive Summaries
+- Action Plans
+- Follow-up Questions
+
+---
+
+## Layer 8 — Evolution
+
+Supports long-term improvement of the framework.
+
+Responsibilities include:
+
+- Knowledge Evolution
+- Consensus Tracking
+- Research Updates
+- Future Scientific Expansion
