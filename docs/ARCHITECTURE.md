@@ -532,3 +532,163 @@ Future versions may introduce additional communication mechanisms including:
 - Parallel execution
 
 Such additions shall preserve the modular communication principles defined by this architecture.
+# 6. Data Flow
+
+The Fitness Research Operating System (FROS) processes information through a structured, sequential data flow.
+
+Each stage transforms its input into a more refined representation while preserving traceability and scientific transparency.
+
+No module shall modify data outside its defined responsibility.
+
+---
+
+## 6.1 Data Flow Principles
+
+The data flow architecture follows the following principles:
+
+- Sequential processing
+- Clear ownership
+- Immutable evidence
+- Traceable transformations
+- Modular processing
+- Reproducible reasoning
+
+Every transformation shall preserve sufficient information for future review.
+
+---
+
+## 6.2 Input Stage
+
+The process begins when the user submits a request.
+
+The initial input may include:
+
+- User question
+- User profile
+- Historical information
+- Available context
+- Attached data
+
+The Master Controller receives the request and initializes the workflow.
+
+---
+
+## 6.3 Classification Stage
+
+The Request Classifier transforms the raw request into structured metadata.
+
+Generated information may include:
+
+- Intent
+- Research domain
+- Complexity level
+- Required modules
+- Missing information
+
+The output becomes the input for the Research Planner.
+
+---
+
+## 6.4 Research Stage
+
+The Research Planner defines the research strategy.
+
+The planner determines:
+
+- Required evidence
+- Required scientific domains
+- Required processing modules
+- Expected research depth
+
+The resulting research plan guides evidence collection.
+
+---
+
+## 6.5 Evidence Processing Stage
+
+Scientific evidence progresses through multiple processing steps.
+
+Evidence shall be:
+
+- Collected
+- Organized
+- Evaluated
+- Ranked
+- Synthesized
+
+Original evidence shall remain distinguishable from processed knowledge.
+
+---
+
+## 6.6 Reasoning Stage
+
+The Reasoning Engine transforms evaluated evidence into structured scientific conclusions.
+
+This stage performs:
+
+- Logical synthesis
+- Scientific integration
+- Conflict analysis
+- Consensus evaluation
+- Confidence estimation
+
+Reasoning outputs remain independent from personalization.
+
+---
+
+## 6.7 Personalization Stage
+
+Scientific conclusions are adapted to the user's profile.
+
+Personalization considers:
+
+- Goals
+- Physical characteristics
+- Medical information
+- Equipment
+- Lifestyle
+- Practical limitations
+
+Scientific conclusions remain unchanged.
+
+Only their application is personalized.
+
+---
+
+## 6.8 Decision Stage
+
+The Decision Engine evaluates available options.
+
+The decision process considers:
+
+- Evidence quality
+- Scientific confidence
+- Risk
+- Practicality
+- Sustainability
+
+The selected recommendation becomes the final decision package.
+
+---
+
+## 6.9 Output Stage
+
+The Output Engine transforms the decision package into user-facing content.
+
+Outputs may include:
+
+- Executive summary
+- Scientific explanation
+- Action plan
+- Follow-up recommendations
+- Confidence summary
+
+---
+
+## 6.10 Traceability
+
+Every stage shall preserve sufficient metadata to reconstruct the complete reasoning process.
+
+Traceability shall remain available throughout the entire research lifecycle.
+
+Future implementations may extend traceability without modifying the overall data flow architecture.
