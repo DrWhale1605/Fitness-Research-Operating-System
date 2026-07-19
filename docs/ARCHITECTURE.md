@@ -1587,6 +1587,7 @@ The primary objectives of FROS remain:
 - Reproducibility
 
 No optimization shall compromise these principles.
+
 # 14. MVP Architecture
 
 The Minimum Viable Product (MVP) represents the first functional implementation of the Fitness Research Operating System (FROS).
@@ -1597,6 +1598,87 @@ The MVP establishes the technical foundation upon which all future versions of F
 
 ---
 
+## MVP Scope
+
+Version 0.1 intentionally supports only a single scientific research domain:
+
+**Hypertrophy Training Volume**
+
+The purpose of this restriction is to validate the architectural design using one complete, well-defined scientific workflow before expanding into additional domains.
+
+The MVP supports questions related to:
+
+- Weekly training volume
+- Number of hard sets
+- Training frequency
+- Progressive overload
+- Recovery between sessions
+
+The following domains are explicitly excluded from Version 0.1:
+
+- Nutrition
+- Supplementation
+- Bloodwork analysis
+- Hormonal optimization
+- Rehabilitation
+- Disease management
+- Sports-specific programming
+- Longevity research
+
+Future versions may introduce these domains as independent modules without changing the core architecture.
+
+---
+
+## MVP Runtime Environment
+
+The MVP is designed for local execution only.
+
+Version 0.1 shall support:
+
+- One local user
+- Python 3.12
+- SQLite persistence
+- Local CLI or a simple local web interface
+- Local filesystem storage
+
+The MVP shall not require:
+
+- Internet-facing services
+- Cloud infrastructure
+- User accounts
+- Authentication
+- Distributed systems
+
+---
+
+## Evidence Acquisition
+
+Scientific evidence is intentionally introduced manually during the MVP.
+
+Accepted evidence sources include:
+
+- DOI
+- PubMed URL
+- User-supplied scientific paper
+
+The MVP shall not perform:
+
+- Automatic literature search
+- Web scraping
+- Continuous monitoring of new publications
+- Automatic evidence collection
+
+This restriction ensures predictable, reproducible, and testable behaviour during Version 0.1.
+
+---
+
+## Definition of Complete Workflow
+
+Throughout this document, the term **Complete Workflow** refers exclusively to the complete workflow implemented within the scope of the Version 0.1 MVP.
+
+It does not imply support for every future scientific domain or every planned FROS capability.
+
+The objective of Version 0.1 is to validate the architecture using one complete end-to-end workflow within the Hypertrophy Training Volume domain.
 ## 14.1 MVP Philosophy
 
 The MVP follows the principle of **minimum complexity with maximum architectural correctness**.
