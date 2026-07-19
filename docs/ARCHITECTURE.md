@@ -1576,3 +1576,96 @@ The primary objectives of FROS remain:
 - Reproducibility
 
 No optimization shall compromise these principles.
+# 14. MVP Architecture
+
+The Minimum Viable Product (MVP) represents the first functional implementation of the Fitness Research Operating System (FROS).
+
+The purpose of the MVP is not to implement every capability described in the System Requirements Specification (SRS), but to validate the core architecture through a working, testable, and maintainable software system.
+
+The MVP establishes the technical foundation upon which all future versions of FROS will be built.
+
+---
+
+## 14.1 MVP Philosophy
+
+The MVP follows the principle of **minimum complexity with maximum architectural correctness**.
+
+Every implemented feature shall contribute directly to validating the core scientific workflow.
+
+Features that do not contribute to this objective shall be postponed to future releases.
+
+The MVP shall prioritize:
+
+- Correct architecture
+- Scientific integrity
+- Modular implementation
+- Maintainability
+- Testability
+
+Feature quantity shall never take priority over software quality.
+
+---
+
+## 14.2 MVP Objectives
+
+The MVP shall demonstrate that FROS can successfully:
+
+- Receive a research request
+- Classify the request
+- Build a research plan
+- Process scientific evidence
+- Produce structured reasoning
+- Personalize conclusions
+- Generate transparent recommendations
+
+The MVP is considered successful only if the complete research workflow operates correctly.
+
+---
+
+## 14.3 Development Constraints
+
+The MVP shall remain intentionally limited.
+
+Constraints include:
+
+- Single user only
+- Local execution only
+- No cloud infrastructure
+- No authentication system
+- No distributed architecture
+- No external database requirement
+- No multi-user synchronization
+
+Architectural simplicity is considered a design requirement.
+
+---
+
+## 14.4 Core MVP Principles
+
+Every MVP component shall satisfy the following principles:
+
+- Single Responsibility Principle
+- Explicit interfaces
+- Modular implementation
+- Independent testing
+- Traceable reasoning
+- Scientific transparency
+
+No module shall implement unrelated responsibilities.
+
+---
+
+## 14.5 Success Definition
+
+The MVP shall be considered complete when:
+
+- Every core module executes successfully.
+- The complete request pipeline operates without interruption.
+- Evidence remains traceable.
+- Recommendations remain scientifically explainable.
+- All implemented modules pass independent validation tests.
+- The architecture supports future expansion without redesign.
+
+Completing additional features does not define MVP success.
+
+Successful validation of the architecture defines MVP success.
