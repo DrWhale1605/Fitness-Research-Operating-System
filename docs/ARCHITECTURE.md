@@ -974,3 +974,149 @@ This package becomes the primary scientific input for the Reasoning Engine.
 Every evidence package shall maintain complete traceability back to its original scientific sources.
 
 Future versions may extend metadata while preserving backward compatibility.
+# 9. Decision Pipeline
+
+The Decision Pipeline transforms validated scientific knowledge into actionable, personalized recommendations.
+
+This pipeline begins only after the Evidence Processing Pipeline has produced a structured evidence package.
+
+Every decision shall remain scientifically justified, transparent, and reproducible.
+
+---
+
+## 9.1 Pipeline Objectives
+
+The Decision Pipeline shall:
+
+- Transform evidence into decisions
+- Evaluate alternative solutions
+- Balance scientific quality and practicality
+- Preserve transparency
+- Generate actionable recommendations
+
+---
+
+## 9.2 Decision Lifecycle
+
+The standard decision process consists of the following stages:
+
+1. Receive Structured Evidence
+2. Scientific Reasoning
+3. User Personalization
+4. Risk Assessment
+5. Trade-off Analysis
+6. Recommendation Selection
+7. Decision Validation
+8. Output Generation
+
+---
+
+## 9.3 Scientific Reasoning
+
+The Reasoning Engine analyzes the structured evidence package.
+
+Responsibilities include:
+
+- Integrating scientific findings
+- Resolving contradictions
+- Identifying scientific consensus
+- Estimating confidence
+- Producing candidate conclusions
+
+Scientific reasoning shall remain independent from user preferences.
+
+---
+
+## 9.4 Personalization
+
+The Personalization Engine adapts scientific conclusions to the user's context.
+
+Factors may include:
+
+- Goals
+- Body composition
+- Training history
+- Medical considerations
+- Equipment
+- Budget
+- Lifestyle
+
+Personalization modifies implementation, not scientific evidence.
+
+---
+
+## 9.5 Risk Assessment
+
+The Decision Engine evaluates potential risks associated with each recommendation.
+
+Assessment may include:
+
+- Injury risk
+- Medical risk
+- Recovery demands
+- Practical limitations
+- Scientific uncertainty
+
+High-risk recommendations shall require stronger scientific justification.
+
+---
+
+## 9.6 Trade-off Analysis
+
+When multiple scientifically acceptable solutions exist, the framework shall compare them according to:
+
+- Expected effectiveness
+- Scientific confidence
+- Sustainability
+- Cost
+- Complexity
+- Time investment
+
+Trade-offs shall be explicitly documented whenever practical.
+
+---
+
+## 9.7 Recommendation Selection
+
+The Decision Engine selects the recommendation that provides the best overall balance between scientific evidence, personalization, and practicality.
+
+Alternative recommendations may also be preserved for future reference.
+
+---
+
+## 9.8 Decision Validation
+
+Before release, every recommendation shall be validated for:
+
+- Scientific consistency
+- Logical consistency
+- Personal relevance
+- Risk level
+- Confidence level
+
+Recommendations failing validation shall be returned for further evaluation.
+
+---
+
+## 9.9 Decision Package
+
+The final output of the Decision Pipeline is a structured decision package.
+
+The package shall include:
+
+- Final recommendation
+- Scientific justification
+- Personalization summary
+- Risk summary
+- Confidence assessment
+- Implementation guidance
+
+This package becomes the direct input for the Output Engine.
+
+---
+
+## 9.10 Pipeline Integrity
+
+The Decision Pipeline shall preserve complete traceability between scientific evidence, reasoning, personalization, and the final recommendation.
+
+Future versions may extend decision logic without changing the overall pipeline architecture.
