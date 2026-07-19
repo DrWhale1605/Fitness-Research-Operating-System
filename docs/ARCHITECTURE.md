@@ -1776,3 +1776,104 @@ Knowledge Evolution, Consensus Tracking, and Research Update mechanisms are defe
 The MVP intentionally implements only the modules required to demonstrate the complete scientific workflow.
 
 Additional capabilities shall be added incrementally after successful architectural validation.
+## 14.7 Excluded Modules
+
+The MVP intentionally excludes advanced functionality that is not required to validate the core architecture.
+
+The following capabilities are deferred to future versions.
+
+---
+
+### Advanced Scientific Review
+
+The following modules are excluded:
+
+- Scientific Debate Engine
+- Devil's Advocate
+- Advanced Bias Detection
+- Hallucination Prevention
+- Statistical Review
+
+These capabilities will be introduced after the core workflow has been validated.
+
+---
+
+### Advanced Domain Intelligence
+
+The MVP does not include specialized domains such as:
+
+- Bloodwork Intelligence
+- Hormonal Analysis
+- Rehabilitation Intelligence
+- Disease-Specific Intelligence
+- Sports-Specific Intelligence
+
+Future releases may introduce these domains as independent modules.
+
+---
+
+### Advanced Personalization
+
+The MVP excludes:
+
+- Adaptive personalization
+- Behavioral learning
+- Automatic preference optimization
+- Long-term habit modeling
+
+The initial implementation relies on static profile information only.
+
+---
+
+### Evolution Layer
+
+No self-improving capabilities are included.
+
+Excluded functionality includes:
+
+- Knowledge Evolution
+- Consensus Tracking
+- Automatic Research Updates
+- Continuous Learning
+
+Knowledge updates shall remain manual during the MVP.
+
+---
+
+### Infrastructure
+
+The MVP excludes:
+
+- Cloud deployment
+- Multi-user support
+- Authentication
+- User accounts
+- Distributed services
+- External databases
+- Real-time synchronization
+
+The system is designed for local execution by a single user.
+
+---
+
+### Performance Optimizations
+
+The MVP does not implement:
+
+- Parallel execution
+- Distributed processing
+- Advanced caching
+- GPU acceleration
+- Performance auto-tuning
+
+Correctness remains the primary objective.
+
+---
+
+## Rationale
+
+These exclusions intentionally reduce implementation complexity.
+
+The objective of Version 0.1 is to validate the architectural design rather than maximize functionality.
+
+Additional modules shall only be introduced after the MVP has demonstrated stable, reliable, and scientifically consistent operation.
