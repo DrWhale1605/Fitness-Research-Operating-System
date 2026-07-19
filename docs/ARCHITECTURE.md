@@ -1877,3 +1877,46 @@ These exclusions intentionally reduce implementation complexity.
 The objective of Version 0.1 is to validate the architectural design rather than maximize functionality.
 
 Additional modules shall only be introduced after the MVP has demonstrated stable, reliable, and scientifically consistent operation.
+## 14.8 MVP Processing Flow
+
+The MVP shall implement a complete end-to-end processing workflow.
+
+Although simplified compared to future releases, every request shall follow the same architectural sequence.
+
+The standard processing flow is:
+
+1. User submits a request.
+2. Master Controller initializes a processing session.
+3. Request Classifier determines intent and required modules.
+4. Research Planner builds a research strategy.
+5. Evidence Collector gathers scientific evidence.
+6. Evidence Evaluator validates and ranks collected evidence.
+7. Reasoning Engine produces structured scientific conclusions.
+8. Personalization Engine adapts conclusions to the user's profile.
+9. Decision Engine selects the most appropriate recommendation.
+10. Output Engine generates the final response.
+
+Each stage shall complete successfully before the next stage begins.
+
+The MVP intentionally uses sequential execution to simplify validation and debugging.
+
+No architectural shortcuts shall bypass any mandatory processing stage.
+
+---
+
+## 14.9 MVP Success Criteria
+
+The MVP shall be considered complete only when all of the following conditions are satisfied:
+
+- The complete request pipeline executes successfully.
+- Every included module performs its defined responsibility.
+- Scientific evidence remains traceable.
+- Recommendations are scientifically explainable.
+- Module interfaces remain stable.
+- Independent module testing has been completed.
+- The architecture supports future expansion without redesign.
+- Documentation accurately reflects the implemented system.
+
+Feature count shall not be used to determine MVP completion.
+
+Architectural correctness, reliability, and maintainability define the successful completion of Version 0.1.
